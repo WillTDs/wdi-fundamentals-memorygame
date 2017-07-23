@@ -5,8 +5,8 @@ body{
 }
 
 h1 {
-	font-family: raleway;
-	color: #0d2c40;
+	font-family: raleway, sans-serif;
+	color: #fff;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
@@ -14,8 +14,8 @@ h1 {
 }
 
 a {
-	font-family: raleway;
-	color: #f15b31;
+	font-family: raleway, sans-serif;
+	color: #fff;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size 18px;
@@ -23,12 +23,16 @@ a {
 	border-bottom: 2px solid transparent;
 }
 
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
 a:hover {
 	border-color: white;
 }
 
 h2 {
-	font-family: raleway;
+	font-family: raleway, sans-serif;
 	color: #0d2c40;
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -70,13 +74,34 @@ footer {
 	font-weight: 500;
 }
 
+button {
+	font-family: raleway, sans-serif;
+	background-color: #00a6b3;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	padding: 8px 14px;
+	max-width: 120px;
+}
+
+#score-board {
+	font-family: raleway, sans-serif;
+	font-size: 22px;
+	background-color: #f15b31;
+	color: #fff;
+	margin: 20px auto;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	max-width: 120px;
+}
+
 .copyright {
-	font-family: raleway;
+	font-family: raleway, sans-serif;
 	float: left;
 }
 
 .message {
-	font-family: raleway;
+	font-family: raleway, sans-serif;
 	float: right;
 }
 
